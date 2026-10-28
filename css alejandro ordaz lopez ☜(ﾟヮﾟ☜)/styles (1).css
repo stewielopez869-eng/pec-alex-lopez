@@ -1,0 +1,48 @@
+/* Estilos generales para toda la página */
+body {
+    font-family: Arial, sans-serif; /* Define el tipo de letra de la página */
+    line-height: 1.6; /* Establece el espacio entre las líneas de texto */
+    margin: 0; /* Elimina el margen exterior predeterminado del navegador */
+    padding: 0; /* Elimina el espacio interior predeterminado */
+    background-color: #ad2323; /* Establece el color rojo del fondo de la página */
+}
+
+/* Estilos para la sección del encabezado */
+header {
+    background-color: #912626; /* Establece el color de fondo del encabezado */
+    color: #000000; /* Define el color negro para el texto del encabezado */
+    padding: 10px 0; /* Agrega 10 píxeles de espacio arriba y abajo */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Estilos para los títulos principales */
+h1 {
+    font-size: 2.5em; /* Define el tamaño de la letra del título */
+    margin-bottom: 0.5em; /* Agrega espacio debajo del título */
+}
+
+/* Estilos para los párrafos */
+p {
+    margin: 0 0 1em 0; /* Elimina los márgenes superior y laterales, y agrega espacio inferior */
+    color: #333; /* Establece el color gris oscuro del texto */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #588ac0; /* Define el color azul de los enlaces */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+}
+
+/* Estilos para los enlaces cuando el cursor pasa sobre ellos */
+a:hover {
+    text-decoration: underline; /* Agrega un subrayado al pasar el cursor sobre el enlace */
+}
+
+/* Estilos para el contenedor principal de la página */
+.container {
+    width: 80%; /* Establece el ancho del contenedor al 80% del elemento que lo contiene */
+    margin: auto; /* Centra horizontalmente el contenedor */
+    padding: 20px; /* Agrega 20 píxeles de espacio interior en todos los lados */
+    background-color: #fff; /* Establece el fondo blanco del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave alrededor del contenedor */
+}
